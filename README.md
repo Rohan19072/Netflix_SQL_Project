@@ -17,19 +17,22 @@ The data for this project is sourced from the Kaggle dataset:
 - **Dataset Link:** [Netflix_Movies_TV_Shows Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
 
-```
-## Business Problems and Solutions
-### 15 concerns from the Netflix dataset answered using SQL Queries.
-### 1. Count the number of Movies Vs TV Shows
+## 🧠 Business Problems and Solutions
+
+Below are **15 business questions** answered using SQL queries. Here are a few examples:
+
+---
+
+### ✅ 1. Count the Number of Movies vs. TV Shows
+
+**Objective:** Determine the distribution of content types on Netflix.
 
 ```sql
 SELECT
-	type,
-	count(*) as total_content
+    type,
+    COUNT(*) AS total_content
 FROM netflix
-Group By type;
-```
-**Objective:** Determine the distribution of content types on Netflix.
+GROUP BY type;
 
 ## 2. Find the Most Common Rating for Movies and TV Shows
 
