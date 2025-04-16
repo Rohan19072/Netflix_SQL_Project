@@ -1,6 +1,6 @@
 # Netflix Movies and TV Shows Data Analysis using SQL
 
-![](https://github.com/SyedaAyeshaNoor/netflix_sql_project/blob/main/NETFLIX_OFFICIAL_LOGO.png)
+![](https://github.com/Rohan19072/Netflix_SQL_Project/blob/main/NETFLIX_OFFICIAL_LOGO.png)
 ## Overview
 This project involves a comprehensive analysis of Netflix's movies and TV shows data using SQL. The goal is to extract valuable insights and answer various business questions based on the dataset. The following README provides a detailed account of the project's objectives, business problems, solutions, findings, and conclusions.
 
@@ -16,25 +16,7 @@ The data for this project is sourced from the Kaggle dataset:
 
 - **Dataset Link:** [Netflix_Movies_TV_Shows Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
-## Netflix Project Schemas
 
-```sql
-DROP TABLE IF EXISTS NETFLIX;
-CREATE TABLE NETFLIX
-(
-	show_id VARCHAR(10),
-	type VARCHAR (10),
-	title VARCHAR(150),
-	director VARCHAR(250),
-	casts VARCHAR(1000),
-	country VARCHAR(150),
-	date_added VARCHAR (50),
-	release_year INT,
-	rating VARCHAR(15),
-	duration VARCHAR(15),
-	listed_in VARCHAR (100),
-	description VARCHAR (300)
-);
 ```
 ## Business Problems and Solutions
 ### 15 concerns from the Netflix dataset answered using SQL Queries.
