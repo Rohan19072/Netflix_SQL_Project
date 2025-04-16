@@ -16,26 +16,9 @@ The data for this project is sourced from the Kaggle dataset:
 
 - **Dataset Link:** [Netflix_Movies_TV_Shows Dataset](https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download)
 
-## Netflix Project Schemas
 
-```sql
-DROP TABLE IF EXISTS NETFLIX;
-CREATE TABLE NETFLIX
-(
-	show_id VARCHAR(10),
-	type VARCHAR (10),
-	title VARCHAR(150),
-	director VARCHAR(250),
-	casts VARCHAR(1000),
-	country VARCHAR(150),
-	date_added VARCHAR (50),
-	release_year INT,
-	rating VARCHAR(15),
-	duration VARCHAR(15),
-	listed_in VARCHAR (100),
-	description VARCHAR (300)
-);
-```
+
+
 ## Business Problems and Solutions
 ### 15 concerns from the Netflix dataset answered using SQL Queries.
 ### 1. Count the number of Movies Vs TV Shows
